@@ -52,7 +52,7 @@ if "port_dict" not in st.session_state.keys() or st.button("Check ports?"):
     st.session_state['port_dict']=[
         {'name':"grafana", 'port':3000},
         {'name':"listerApp", 'port':8505},
-        {'name':"stsApp", 'port':8504}
+        {'name':"stsApp", 'port':8503}
     ]
 
 thisIP=get_ip()
